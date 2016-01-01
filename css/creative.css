@@ -262,11 +262,16 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
+.marg-down {
+  padding-bottom: 30px;
+}
+
 .portfolio-box {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 650px;
+    max-height: 275px;
 }
 
 .portfolio-box .portfolio-box-caption {
