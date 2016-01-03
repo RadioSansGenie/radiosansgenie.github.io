@@ -24,7 +24,6 @@ hr.light {
     border-color: #fff;
 }
 
-
 a {
     color: #f05f40;
     -webkit-transition: all .35s;
@@ -56,14 +55,6 @@ p {
     background-color: #f05f40;
 }
 
-.pad-20 {
-  padding-bottom: 40px;
-}
-
-.force-width {
-  width: 100%;
-}
-
 .bg-dark {
     color: #fff;
     background-color: #222;
@@ -85,10 +76,6 @@ aside {
     padding: 0;
 }
 
-.no-padding-bot {
-    padding-bottom: 0;
-}
-
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -97,9 +84,13 @@ aside {
     -moz-transition: all .35s;
     transition: all .35s;
 }
-
+.navbar-default .navbar-header .navbar-brand-noup {
+  ont-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: 700;
+  color: #f05f40;
+}
 .navbar-default .navbar-header .navbar-brand {
-    text-transform: uppercase;
+    //text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #f05f40;
@@ -191,7 +182,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header3.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -209,7 +200,7 @@ header .header-content {
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
-    text-transform: uppercase;
+    //text-transform: uppercase;
     font-weight: 700;
 }
 
@@ -220,8 +211,8 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
-    font-weight: 300;
-    color: rgba(255,255,255,.7);
+    font-weight: 500;
+    color: rgba(255,255,255,1);
 }
 
 @media(min-width:768px) {
@@ -231,7 +222,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 50%;
+        top: 40%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -271,11 +262,16 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
+.marg-down {
+  padding-bottom: 30px;
+}
+
 .portfolio-box {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 650px;
+    max-height: 275px;
 }
 
 .portfolio-box .portfolio-box-caption {

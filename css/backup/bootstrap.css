@@ -1124,6 +1124,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  max-height: 100%;
 }
 .img-rounded {
   border-radius: 6px;
@@ -1149,10 +1150,6 @@ hr {
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eee;
-}
-
-member-img{
-  width: 100%;
 }
 .sr-only {
   position: absolute;
@@ -1599,12 +1596,12 @@ pre code {
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 100%;
   }
 }
 .container-fluid {
