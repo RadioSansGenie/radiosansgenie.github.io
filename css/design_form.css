@@ -31,11 +31,8 @@
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
-		width: 40%;
+		width: 100%;
 	}
-input[type="text"] .form1-2{
-	width: 50%;
-}
 
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
