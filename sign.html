@@ -7,6 +7,10 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<title>Radio Sans Génie</title>
+
+	<!-- Icon -->
+	<link rel="icon" type="image/png" href="favicon.png" />
+
 	<!-- Bootstrap Core CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 	<!-- Custom Fonts -->
@@ -90,7 +94,7 @@
 				</p>
 			</form>
 			<div id="sign_location">
-			
+
 			</div>
 		</div>
 	</section>
@@ -108,7 +112,7 @@
 
 	<!-- Custom Theme JavaScript -->
 	<script src="js/creative.js"></script>
-	
+
 	<!-- Google Analytics Plugin -->
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -118,7 +122,7 @@
 		ga('create', 'UA-54907215-3', 'auto');
 		ga('send', 'pageview');
 	</script>
-	
+
 	<!-- Mail signing generator script -->
 	<script>
 		function check() {
@@ -126,14 +130,14 @@
 			var job = document.form_sign.job.value;
 			var phone = document.form_sign.phone.value;
 			var mail = document.form_sign.mail.value;
-			
+
 			var div = document.createElement("div");
 			div.innerHTML = '<p id="signature" style="font-family: Lato, Arial, sans-serif"><table><tr style="border-style: none" ><td width="40px"><img src="http://radiosansgenie.com/img/logo/RSG_grand_format.jpg" height="110"/></td><td><div style="color: #E2670C; font-weight: bold; font-size: 20px; padding: 3px" >Radio Sans Génie</div><div style="color: #AD5114; font-weight: bold; font-size: 13px; padding: 3px " >'+name+' - '+job+'</div><div style="color: #949699; font-size: 14px; padding: 3px">Mail: <a style="color: #949699; font-size: 14px; text-decoration: none;" href="mailto:'+mail+'">'+mail+'</a><br/>Cel.: <a style="color: #949699; font-size: 14px; text-decoration: none;" href="tel:'+phone+'">'+phone+'</a></div></td></tr><tr><td colspan="2"><div style="color: #36a629; font-size: 14px; text-decoration: none;"><img src="https://www.univ-smb.fr/fileadmin/Communication/signature/environnement2.png" alt="Eco-attitude" align="left" hspace="2" />&nbsp;&nbsp;&nbsp;Un geste simple pour l\'environnement, n\'imprimez ce message que si vous en avez l\'utilité.</div></td></tr></table></p><p>Pour installer la signature, il suffit de la copier / coller dans la case prévue à cet effet dans votre client mail préféré.</p>';
 			document.getElementById("sign_location").innerHTML = "";
-			document.getElementById("sign_location").appendChild(div);    
+			document.getElementById("sign_location").appendChild(div);
 		}
 	</script>
-	
+
 </body>
 
 </html>
